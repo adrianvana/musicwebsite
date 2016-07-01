@@ -23,6 +23,7 @@ span{  font-weight:500; }
 .white{ background-color: ; }
 .gray{ background-color: #2e2e2e; }
 .pink{ background-color: #cc0066; }
+.shadow{box-shadow: 0px 6px 25px #000;}
 /**** left/right ****/
 .left{position: relative; left: 0; float: left; }
 .right{position: relative; right: 0; float: right;}
@@ -39,7 +40,8 @@ span{  font-weight:500; }
 /**** index page* ***/
 	/**** header index ****/
 	header{ margin:0; padding:0; }
-	header menu	{height:25px; width:100%; /*border-bottom:1px solid red;*/ padding:20px 0; margin-top:20px; text-shadow: 1px 1px #484848; position: absolute; z-index: 10;}
+	header menu	{height:25px; width:100%; /*border-bottom:1px solid red;*/ padding:20px 0; margin-top:20px; text-shadow: 1px 1px #000; position: absolute; z-index: 10;}
+	header menu h2{margin-top: -10px;}
 	header menu ul{text-align: right; margin: 0; padding-right: 10%;}
 	header menu li{display: inline;}
 
