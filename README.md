@@ -1,2 +1,2 @@
 # musicwebsite
-Template para sitio web de músico/grupo musical
+Template para sitio web responsivo de músico/grupo musical
