@@ -21,7 +21,7 @@ span{  font-weight:500; }
 .text-black{ color:; }
 .text-white{ color:; }
 .white{ background-color: ; }
-.gray{ background-color: ; }
+.gray{ background-color: #2e2e2e; }
 .pink{ background-color: #cc0066; }
 /**** left/right ****/
 .left{position: relative; left: 0; float: left; }
@@ -43,20 +43,9 @@ span{  font-weight:500; }
 	header menu ul{text-align: right; margin: 0; padding-right: 10%;}
 	header menu li{display: inline;}
 	
-	/*Sweep to left effect */
-	.left-sweep { position: relative;  -webkit-transform: translateZ(0); transform: translateZ(0); -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transition-duration: 0.3s; transition-duration: 0.3s; }
-	.left-sweep:before { content: ""; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background:rgba(0,0,0,0.1); -webkit-transform: scaleX(0); transform: scaleX(0); -webkit-transform-origin: 0 50%; transform-origin: 0 50%; -webkit-transition-property: transform; transition-property: transform; -webkit-transition-duration: 0.5s; transition-duration: 0.5s; -webkit-transition-timing-function: ease-out; transition-timing-function: ease-out; border-radius:10px; }
-	.left-sweep:hover, .left-sweep:focus, .left-sweep:active {/*color: white;*/}
-	.left-sweep:hover:before, .left-sweep:focus:before,  .left-sweep:active:before { -webkit-transform: scaleX(1); transform: scaleX(1); }
-	/*Sweep to right effect */
-	.right-sweep { position: relative; -webkit-transform: translateX(0); transform: translateX(0); -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transition-duration: 0.3s; transition-duration: 0.3s; }
- 	.right-sweep:before { content: ""; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background:rgba(0,0,0,0.1); -webkit-transform: scaleX(0); transform: scaleX(0); -webkit-transform-origin:top right; transform-origin:top right; -webkit-transition-property: transform; transition-property: transform; -webkit-transition-duration: 0.5s; transition-duration: 0.5s; -webkit-transition-timing-function: ease-out; transition-timing-function: ease-out; border-radius:10px; }
-	.right-sweep:hover:before, .right-sweep:focus:before, 
-	.right-sweep:active:before { -webkit-transform: scaleX(1); transform: scaleX(1); }
-	.right-sweep:hover, .right-sweep:focus, .right-sweep:active {} 
 	
 	/*section footer*/
-	footer{ background:#000;  }
+	footer{ background:#0d0d0d;  }
 	footer .container a:hover{ color:#FD5451; }
 	
 	
