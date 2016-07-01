@@ -1,5 +1,5 @@
 /*GENERAL*/
-body{ width:100%; left:0; margin:0; top:0; font-family: 'PT Sans Narrow', sans-serif !important; background-color: black; color:white;}
+body{ width:100%; left:0; margin:0; top:0; font-family: 'PT Sans Narrow', sans-serif !important; background-color: #0d0d0d; color:white;}
 header, footer, section{ width:100%;  overflow:hidden; margin-top:0; height:auto;  }
 .container{ padding:10% 0; min-height:200px; width:80%; height:auto; /*border-bottom:1px #FFf solid;*/ margin:auto;  }
 
@@ -40,6 +40,8 @@ span{  font-weight:500; }
 /**** index page* ***/
 	/**** header index ****/
 	header{ margin:0; padding:0; }
+	header menu .logo{height: 30px; float: left; padding-left: 50px; padding-right: 20px;}
+	header menu .nombre{float: left;}
 	header menu	{height:25px; width:100%; /*border-bottom:1px solid red;*/ padding:20px 0; margin-top:20px; text-shadow: 1px 1px #000; position: absolute; z-index: 10;}
 	header menu h2{margin-top: -10px;}
 	header menu ul{text-align: right; margin: 0; padding-right: 10%;}
@@ -53,8 +55,7 @@ span{  font-weight:500; }
 	
 	
 	/*section footer*/
-	footer{ background:#0d0d0d;  }
-	footer .container a:hover{ color:#FD5451; }
+	footer{  }
 	
 	
 
