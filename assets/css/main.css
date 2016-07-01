@@ -4,7 +4,7 @@ header, footer, section{ width:100%;  overflow:hidden; margin-top:0; height:auto
 .container{ padding:10% 0; min-height:200px; width:80%; height:auto; /*border-bottom:1px #FFf solid;*/ margin:auto;  }
 
 .content{ position:relative; margin:auto; }
-.column{  width:50%; height:100%;  padding:30px 0 90px 0;  }
+.column{  width:50%; }
 .column30{width: 30%;}
 .column70{width: 70%;}
 /**** texts ****/
@@ -39,9 +39,12 @@ span{  font-weight:500; }
 /**** index page* ***/
 	/**** header index ****/
 	header{ margin:0; padding:0; }
-	header menu	{height:25px; width:100%; /*border-bottom:1px solid red;*/ padding:20px 0; margin-top:20px; text-shadow: 1px 1px #484848;}
+	header menu	{height:25px; width:100%; /*border-bottom:1px solid red;*/ padding:20px 0; margin-top:20px; text-shadow: 1px 1px #484848; position: absolute; z-index: 10;}
 	header menu ul{text-align: right; margin: 0; padding-right: 10%;}
 	header menu li{display: inline;}
+
+	.slider_top{height: 800px;}
+	.caption{position: absolute; bottom: 0;}
 	
 	
 	/*section footer*/
