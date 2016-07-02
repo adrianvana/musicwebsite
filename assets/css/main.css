@@ -1,7 +1,8 @@
 /*GENERAL*/
 body{ width:100%; left:0; margin:0; top:0; font-family: 'PT Sans Narrow', sans-serif !important; background-color: #0d0d0d; color:white;}
 header, footer, section{ width:100%;  overflow:hidden; margin-top:0; height:auto;  }
-.container{ padding:10% 0; min-height:200px; width:80%; height:auto; /*border-bottom:1px #FFf solid;*/ margin:auto;  }
+.container{ padding:100px 0; min-height:200px; width:80%; height:auto; /*border-bottom:1px #FFf solid;*/ margin:auto;  }
+ul{padding: 0;}
 
 .content{ position:relative; margin:auto; }
 .column{  width:50%; }
@@ -10,7 +11,7 @@ header, footer, section{ width:100%;  overflow:hidden; margin-top:0; height:auto
 /**** texts ****/
 a{ text-decoration:none; color:#fff; }
 p{ line-height:35px; letter-spacing:0px;}
-h1{ font-weight:500;   font-size:65px; margin-top:25px;letter-spacing:-2px;}
+h1{ font-weight:500;   font-size:65px; margin-top:0px;letter-spacing:-2px;}
 h2{margin:auto; font-weight:300; font-size: 35px;}
 span{  font-weight:500; }
 /**** botones ****/
@@ -24,6 +25,11 @@ span{  font-weight:500; }
 .gray{ background-color: #2e2e2e; }
 .pink{ background-color: #cc0066; }
 .shadow{box-shadow: 0px 6px 25px #000;}
+
+/*Forms*/
+.button-black{background-color: #000; color: #fff; width: 300px; padding: 10px; border-radius: 10px; border: solid 1px #fff; font-weight: 600;}
+.input-black{background-color: #080808; padding: 5px; width: 100%; color: white; margin-bottom: 25px; border: solid 1px #2f2f2f; border-radius: 3px;}
+
 /**** left/right ****/
 .left{position: relative; left: 0; float: left; }
 .right{position: relative; right: 0; float: right;}
@@ -53,9 +59,12 @@ span{  font-weight:500; }
 	.next{ right:0; background-image: url('../img/next.png'); }
 	.prev{left:0; background-image: url('../img/prev.png'); }
 	
-	
+	.iconos_contacto{background-color: black; background-image: url('../img/background1.jpg');}
+	.iconos_contacto li{ display: inline; padding-right: 10px; }
+	.iconos_contacto textarea{height: 50px;}
+
 	/*section footer*/
-	footer{  }
+	footer .container{ min-height: initial; padding: 0; }
 	
 	
 
