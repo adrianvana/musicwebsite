@@ -63,11 +63,11 @@ span{  font-weight:500; }
 	.next{ right:0; background-image: url('../img/next.png'); }
 	.prev{left:0; background-image: url('../img/prev.png'); }
 	
-	.iconos_contacto{background-color: black; background-image: url('../img/background1.jpg');  }
+	.iconos_contacto{background-color: black; background-image: url('../img/backgrounds/background1.jpg');  }
 	.iconos_contacto li{ display: inline; padding-right: 10px; }
 	.iconos_contacto textarea{height: 50px;}
 
-	.biografia{background-image: url('../img/background2.jpg'); background-size: cover; font-size: 18px; padding: 100px 0;}
+	.biografia{background-image: url('../img/backgrounds/background2.jpg'); background-size: cover; font-size: 18px; padding: 100px 0;}
 	.biografia img{max-width: 100%;}
 	.biografia ::first-letter{font-size: 200%; font-family: 'Dancing Script', cursive;}
 

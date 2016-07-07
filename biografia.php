@@ -29,7 +29,7 @@
   <div class="container">
     <h1 class="text-gray text-shadow cursiva">Biografía</h1>
 
-    <div class="text-gray text-shadow">
+    <article class="text-gray text-shadow">
       <div class="column30 right">
         <figure>
           <img src="assets/img/bio1.jpg">
@@ -68,8 +68,7 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
-
-    </div>
+    </article>
   </div>  
 
 </section>

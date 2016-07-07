@@ -47,7 +47,7 @@
 	<div class="callbacks_container">
     	<ul class="rslides" id="slider4">
         	<li>
-          		<img src="assets/img/1.jpg" alt="">
+          		<img src="assets/img/slider/1.jpg" alt="">
           		<div class="caption column right text-justify">
           			<h1>Imagen 1</h1>
           			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -59,7 +59,7 @@
           		</div>
         	</li>
         	<li>
-          		<img src="assets/img/2.jpg" alt="">
+          		<img src="assets/img/slider/2.jpg" alt="">
           		<div class="caption column left text-justify">
           			<h1>Imagen 2</h1>
           			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -71,7 +71,7 @@
           		</div>
         	</li>
         	<li>
-          		<img src="assets/img/3.jpg" alt="">
+          		<img src="assets/img/slider/3.jpg" alt="">
           		<div class="caption column left text-justify">
           			<h1>Imagen 3</h1>
           			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -91,12 +91,12 @@
 		<div class="column left">
 			<h1>Contacto</h1>
 			<ul>
-				<li><img src="assets/img/fb.png"></li>
-				<li><img src="assets/img/twitter.png"></li>
-				<li><img src="assets/img/gplus.png"></li>
-				<li><img src="assets/img/insta.png"></li>
-				<li><img src="assets/img/yt.png"></li>
-				<li><img src="assets/img/soundcloud.png"></li>
+				<li><img src="assets/img/icons/fb.png"></li>
+				<li><img src="assets/img/icons/twitter.png"></li>
+				<li><img src="assets/img/icons/gplus.png"></li>
+				<li><img src="assets/img/icons/insta.png"></li>
+				<li><img src="assets/img/icons/yt.png"></li>
+				<li><img src="assets/img/icons/soundcloud.png"></li>
 			</ul>
 		</div>
 		<div class="column right">
