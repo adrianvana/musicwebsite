@@ -30,11 +30,9 @@
     <h1 class="text-gray text-shadow cursiva">Biografía</h1>
 
     <article class="text-gray text-shadow">
-      <div class="column30 right">
-        <figure>
-          <img src="assets/img/bio1.jpg">
-        </figure>
-      </div>
+      <figure class="column30 right">
+        <img src="assets/img/bio1.jpg" class="shadow">
+      </figure>
 
       <p class="text-justify">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -54,11 +52,9 @@
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
 
-      <div class="column left">
-        <figure>
-          <img src="assets/img/bio2.jpg">
-        </figure>
-      </div>
+      <figure class="column left">
+        <img src="assets/img/bio2.jpg" class="shadow">
+      </figure>
 
       <p class="text-justify">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
