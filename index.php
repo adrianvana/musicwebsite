@@ -13,6 +13,7 @@
 
     <!-- Estilos -->
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" > 
     <link rel="stylesheet" href="assets/slider/responsiveslides.css">
 
@@ -40,27 +41,7 @@
 </head>
 <body>
 
-<header>
-	<menu class="pink shadow">
-		<div class="column30 left">
-			<img class="logo" src="assets/img/logo.png">
-			<h2 class="nombre">Nombre del Músico</h2>	
-		</div>
-		<div class="column70 right">
-			<ul>
-				<li>Home</li>
-				<li>Galería</li>
-				<li>Videos</li>
-				<li>Biografía</li>
-				<li>Presentaciones</li>
-				<li>Archivos</li>
-				<li>Tienda</li>
-				<li>Contacto</li>
-			</ul>	
-		</div>
-		
-	</menu>
-</header>
+<?php include('assets/header.php'); ?>
 
 <section class="slider_top" id="slider_top">
 	<div class="callbacks_container">
@@ -127,13 +108,7 @@
 	</div>
 </section>
 
-<footer>
-	<div class="container">
-		<p class="text-center">
-			<small>&copy; 2016 Adrián Vázquez Navarrete</small><br>
-		</p>
-	</div>
-</footer>
+<?php include('assets/footer.php'); ?>
 
 </body>
 </html>
